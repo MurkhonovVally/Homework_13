@@ -25,4 +25,8 @@ public class Book {
     public void setPublishingBook(int publishingBook) {
         this.publishingBook = publishingBook;
     }
+
+    public String toString() {
+        return "книга: " + this.title + " год издания: " + this.publishingBook;
+    }
 }
